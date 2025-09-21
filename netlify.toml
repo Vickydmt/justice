@@ -5,6 +5,8 @@
 [build.environment]
   NODE_VERSION = "18"
   NPM_VERSION = "9"
+  # Fix Sharp installation issue
+  SHARP_IGNORE_GLOBAL_LIBVIPS = "1"
 
 # Redirect rules for Next.js
 [[redirects]]
