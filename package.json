@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "postinstall": "npm install --platform=linux --arch=x64 sharp",
     "build": "next build",
+    "build:netlify": "next build",
     "export": "next build && next export",
     "dev": "next dev",
     "lint": "next lint",
